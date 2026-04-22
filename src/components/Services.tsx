@@ -27,7 +27,7 @@ const services = [
     price: "R$ 150,00",
     description:
       "Tratamento de revitalização e fortalecimento das sobrancelhas, estimulando o crescimento natural dos fios para um visual mais cheio e definido.",
-    image: client1,
+    image: serviceBrownUp,
   },
   {
     title: "Grow Up",
