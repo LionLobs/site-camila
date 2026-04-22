@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import clinicBg from "@/assets/clinic-bg.jpg";
+import camilaAcademy from "@/assets/camila-academy.png";
+import equipeCertificado from "@/assets/equipe-certificado.png";
 
 const Clinic = () => {
   return (
@@ -28,36 +29,71 @@ const Clinic = () => {
           </p>
         </motion.div>
 
-        {/* Clinic Image */}
+        {/* Two-image layout */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {/* Clinic exterior */}
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+            className="relative rounded-2xl overflow-hidden group"
+          >
+            <img
+              src={camilaAcademy}
+              alt="Camila na Natalia Beauty Academy"
+              className="w-full h-[400px] md:h-[500px] object-cover group-hover:scale-105 transition-transform duration-700"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-foreground/60 to-transparent" />
+            <div className="absolute bottom-0 left-0 right-0 p-8">
+              <p className="text-label text-primary-foreground/70 mb-2 tracking-[0.25em]">
+                Formação
+              </p>
+              <h3 className="font-heading text-2xl md:text-3xl text-primary-foreground">
+                Formada pela Natalia Beauty Academy
+              </h3>
+            </div>
+          </motion.div>
+
+          {/* Team */}
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, delay: 0.15 }}
+            className="relative rounded-2xl overflow-hidden group"
+          >
+            <img
+              src={equipeCertificado}
+              alt="Equipe Camila Cavinatti Beauty"
+              className="w-full h-[400px] md:h-[500px] object-cover group-hover:scale-105 transition-transform duration-700"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-foreground/60 to-transparent" />
+            <div className="absolute bottom-0 left-0 right-0 p-8">
+              <p className="text-label text-primary-foreground/70 mb-2 tracking-[0.25em]">
+                Nossa Equipe
+              </p>
+              <h3 className="font-heading text-2xl md:text-3xl text-primary-foreground">
+                Profissionais certificadas e apaixonadas
+              </h3>
+            </div>
+          </motion.div>
+        </div>
+
+        {/* CTA */}
         <motion.div
-          initial={{ opacity: 0, y: 30 }}
+          initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.8 }}
-          className="relative rounded-2xl overflow-hidden"
+          transition={{ duration: 0.6, delay: 0.3 }}
+          className="flex flex-col sm:flex-row gap-4 justify-center mt-10"
         >
-          <img
-            src={clinicBg}
-            alt="Clínica Camila Cavinatti Beauty"
-            className="w-full h-[400px] md:h-[500px] object-cover"
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-foreground/60 to-transparent" />
-          <div className="absolute bottom-0 left-0 right-0 p-8 md:p-12">
-            <p className="text-label text-primary-foreground/70 mb-3 tracking-[0.25em]">
-              Espaço Exclusivo
-            </p>
-            <h3 className="font-heading text-3xl md:text-4xl text-primary-foreground mb-4">
-              A beleza natural realçada é uma das formas mais lindas de viver.
-            </h3>
-            <div className="flex flex-col sm:flex-row gap-4 mt-6">
-              <a href="https://wa.me/5515981037418?text=Olá! Gostaria de agendar um horário." target="_blank" rel="noopener noreferrer" className="btn-primary">
-                Atendimento
-              </a>
-              <a href="#procedimentos" className="btn-outline">
-                Nossos Procedimentos
-              </a>
-            </div>
-          </div>
+          <a href="https://wa.me/5515981037418?text=Olá! Gostaria de agendar um horário." target="_blank" rel="noopener noreferrer" className="btn-primary">
+            Atendimento
+          </a>
+          <a href="#procedimentos" className="btn-outline">
+            Nossos Procedimentos
+          </a>
         </motion.div>
       </div>
     </section>

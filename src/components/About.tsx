@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
-import artistPortrait from "@/assets/artist-portrait.jpg";
+import camilaCafe from "@/assets/camila-cafe.png";
+import camilaFlores from "@/assets/camila-flores.png";
+import camilaAcademy from "@/assets/camila-academy.png";
 
 const About = () => {
   return (
@@ -25,23 +27,37 @@ const About = () => {
         </motion.div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-          {/* Image */}
+          {/* Image collage */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
-            <div className="relative w-full max-w-[340px] mx-auto">
+            <div className="relative w-full max-w-[420px] mx-auto">
+              {/* Main image */}
               <img
-                src={artistPortrait}
-                alt="Camila Cavinatti"
-                className="w-full aspect-square rounded-full object-cover shadow-lg"
-                style={{ objectPosition: "60% 30%" }}
+                src={camilaFlores}
+                alt="Camila Cavinatti entre flores"
+                className="w-full aspect-[3/4] rounded-2xl object-cover shadow-luxury"
               />
-              {/* Decorative pink element */}
-              <div className="absolute -bottom-4 -right-4 w-20 h-20 rounded-full bg-pink-light -z-10 hidden lg:block" />
-              <div className="absolute -top-4 -left-4 w-14 h-14 rounded-full bg-pink-light -z-10 hidden lg:block" />
+              {/* Floating secondary image */}
+              <motion.div
+                initial={{ opacity: 0, scale: 0.8 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6, delay: 0.4 }}
+                className="absolute -bottom-6 -right-6 w-40 h-40 md:w-48 md:h-48 rounded-2xl overflow-hidden shadow-luxury border-4 border-background"
+              >
+                <img
+                  src={camilaCafe}
+                  alt="Camila Cavinatti"
+                  className="w-full h-full object-cover"
+                />
+              </motion.div>
+              {/* Decorative elements */}
+              <div className="absolute -top-4 -left-4 w-20 h-20 rounded-full bg-pink-light/50 -z-10 hidden lg:block" />
+              <div className="absolute -bottom-8 -left-8 w-14 h-14 rounded-full bg-gold/20 -z-10 hidden lg:block" />
             </div>
           </motion.div>
 
