@@ -6,6 +6,7 @@ import client2 from "@/assets/client-2.png";
 import client3 from "@/assets/client-3.png";
 import client4 from "@/assets/client-4.png";
 import client5 from "@/assets/client-5.png";
+import clientFlowBrows from "@/assets/client-flowbrows.png";
 
 const services = [
   {
