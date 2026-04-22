@@ -7,6 +7,10 @@ import client3 from "@/assets/client-3.png";
 import client4 from "@/assets/client-4.png";
 import client5 from "@/assets/client-5.png";
 import clientFlowBrows from "@/assets/client-flowbrows.png";
+import serviceDepilacao from "@/assets/service-depilacao.jpg";
+import serviceCiliosBr from "@/assets/service-cilios-brasileiro.jpg";
+import serviceCiliosRu from "@/assets/service-cilios-russo.jpg";
+import serviceCiliosEg from "@/assets/service-cilios-egipcio.jpg";
 
 const services = [
   {
