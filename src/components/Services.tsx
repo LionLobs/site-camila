@@ -61,14 +61,14 @@ const services = [
     price: "R$ 150,00",
     description:
       "Extensão de cílios com efeito natural e marcante, fio a fio, ideal para um olhar mais expressivo no dia a dia.",
-    image: client3,
+    image: serviceCiliosBr,
   },
   {
     title: "Cílios — Volume Russo",
     price: "R$ 200,00",
     description:
       "Técnica sofisticada de múltiplos fios ultrafinos por extensão, criando um volume denso, leve e altamente impactante.",
-    image: client2,
+    image: serviceCiliosRu,
     tag: "Premium",
   },
   {
@@ -76,7 +76,7 @@ const services = [
     price: "R$ 150,00",
     description:
       "Volume com efeito alongado e dramático, com fios estratégicos que criam um olhar felino e sedutor.",
-    image: client5,
+    image: serviceCiliosEg,
   },
 ];
 
