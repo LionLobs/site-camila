@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
-import camilaCafe from "@/assets/camila-cafe.png";
-import camilaFlores from "@/assets/camila-flores.png";
+import camilaCafe from "@/assets/camila-cafe-hd.jpg";
+import camilaFlores from "@/assets/camila-flores-hd.jpg";
 import camilaAcademy from "@/assets/camila-academy.png";
 
 const About = () => {
