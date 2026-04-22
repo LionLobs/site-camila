@@ -42,17 +42,21 @@ const Footer = () => {
             <p className="text-label text-primary-foreground/40 mb-4 tracking-[0.2em]">
               Menu
             </p>
-            {["Quem Sou", "Procedimentos", "Clínica", "Depoimentos", "Contato"].map(
-              (item) => (
-                <a
-                  key={item}
-                  href={`#${item.toLowerCase().replace(/\s/g, "-")}`}
-                  className="block text-primary-foreground/60 text-sm mb-3 hover:text-pink transition-colors"
-                >
-                  {item}
-                </a>
-              )
-            )}
+            {[
+              { label: "Quem Sou", href: "#quem-somos" },
+              { label: "Procedimentos", href: "#procedimentos" },
+              { label: "Clínica", href: "#clinica" },
+              { label: "Depoimentos", href: "#depoimentos" },
+              { label: "Contato", href: "#contato" },
+            ].map((item) => (
+              <a
+                key={item.label}
+                href={item.href}
+                className="block text-primary-foreground/60 text-sm mb-3 hover:text-pink transition-colors"
+              >
+                {item.label}
+              </a>
+            ))}
           </div>
 
           {/* Procedures */}
