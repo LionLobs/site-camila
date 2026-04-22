@@ -47,7 +47,7 @@ const About = () => {
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: 0.4 }}
-                className="absolute -bottom-6 -right-6 w-40 h-40 md:w-48 md:h-48 rounded-2xl overflow-hidden shadow-luxury border-4 border-background"
+                className="absolute -bottom-5 -right-5 w-32 h-32 md:w-36 md:h-36 rounded-2xl overflow-hidden shadow-luxury border-4 border-background"
               >
                 <img
                   src={camilaCafe}
