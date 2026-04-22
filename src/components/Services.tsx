@@ -1,12 +1,11 @@
 import { motion } from "framer-motion";
 import { useRef, useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight, Sparkles } from "lucide-react";
-import serviceBrows from "@/assets/service-brows.jpg";
-import serviceLips from "@/assets/service-lips.jpg";
-import serviceLashes from "@/assets/service-lashes.jpg";
-import serviceMicropig from "@/assets/service-micropig.jpg";
-import serviceGlow from "@/assets/service-glow.jpg";
-import serviceSkincare from "@/assets/service-skincare.jpg";
+import client1 from "@/assets/client-1.png";
+import client2 from "@/assets/client-2.png";
+import client3 from "@/assets/client-3.png";
+import client4 from "@/assets/client-4.png";
+import client5 from "@/assets/client-5.png";
 
 const services = [
   {
