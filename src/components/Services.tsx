@@ -13,7 +13,7 @@ const services = [
     price: "R$ 500,00",
     description:
       "Técnica exclusiva de micropigmentação que recupera o volume e a naturalidade dos fios das sobrancelhas, com resultado hiper-realista e duradouro.",
-    image: serviceBrows,
+    image: client5,
     tag: "Mais pedido",
   },
   {
@@ -21,49 +21,49 @@ const services = [
     price: "R$ 150,00",
     description:
       "Tratamento de revitalização e fortalecimento das sobrancelhas, estimulando o crescimento natural dos fios para um visual mais cheio e definido.",
-    image: serviceMicropig,
+    image: client1,
   },
   {
     title: "Grow Up",
     price: "R$ 150,00 por sessão",
     description:
       "Protocolo intensivo para estimular o crescimento de sobrancelhas e cílios, devolvendo densidade e vitalidade aos fios em cada sessão.",
-    image: serviceGlow,
+    image: client2,
   },
   {
     title: "Flow Design",
     price: "R$ 60,00",
     description:
       "Design de sobrancelhas personalizado, respeitando a simetria do rosto e valorizando a beleza única de cada cliente.",
-    image: serviceLips,
+    image: client3,
   },
   {
     title: "Flow Design + Henna",
     price: "R$ 90,00",
     description:
       "Design de sobrancelhas combinado com aplicação de henna para preencher falhas, intensificar a cor e prolongar o resultado.",
-    image: serviceSkincare,
+    image: client4,
   },
   {
     title: "Depilação Facial",
     price: "R$ 50,00",
     description:
       "Remoção delicada dos pelos faciais, deixando a pele lisa, uniforme e pronta para receber maquiagem e demais cuidados.",
-    image: serviceGlow,
+    image: client1,
   },
   {
     title: "Cílios — Volume Brasileiro",
     price: "R$ 150,00",
     description:
       "Extensão de cílios com efeito natural e marcante, fio a fio, ideal para um olhar mais expressivo no dia a dia.",
-    image: serviceLashes,
+    image: client3,
   },
   {
     title: "Cílios — Volume Russo",
     price: "R$ 200,00",
     description:
       "Técnica sofisticada de múltiplos fios ultrafinos por extensão, criando um volume denso, leve e altamente impactante.",
-    image: serviceLashes,
+    image: client2,
     tag: "Premium",
   },
   {
@@ -71,7 +71,7 @@ const services = [
     price: "R$ 150,00",
     description:
       "Volume com efeito alongado e dramático, com fios estratégicos que criam um olhar felino e sedutor.",
-    image: serviceLashes,
+    image: client5,
   },
 ];
 
