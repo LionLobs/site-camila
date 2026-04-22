@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
-import camilaCafe from "@/assets/camila-cafe.png";
-import camilaFlores from "@/assets/camila-flores.png";
+import camilaCafe from "@/assets/camila-cafe-hd.jpg";
+import camilaFlores from "@/assets/camila-flores-hd.jpg";
 import camilaAcademy from "@/assets/camila-academy.png";
 
 const About = () => {
@@ -34,12 +34,12 @@ const About = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
-            <div className="relative w-full max-w-[420px] mx-auto">
+            <div className="relative w-full max-w-[340px] mx-auto">
               {/* Main image */}
               <img
                 src={camilaFlores}
                 alt="Camila Cavinatti entre flores"
-                className="w-full aspect-[3/4] rounded-2xl object-cover shadow-luxury"
+                className="w-full aspect-[3/4] rounded-2xl object-cover object-top shadow-luxury"
               />
               {/* Floating secondary image */}
               <motion.div
@@ -47,7 +47,7 @@ const About = () => {
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: 0.4 }}
-                className="absolute -bottom-6 -right-6 w-40 h-40 md:w-48 md:h-48 rounded-2xl overflow-hidden shadow-luxury border-4 border-background"
+                className="absolute -bottom-5 -right-5 w-32 h-32 md:w-36 md:h-36 rounded-2xl overflow-hidden shadow-luxury border-4 border-background"
               >
                 <img
                   src={camilaCafe}
