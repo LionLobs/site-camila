@@ -16,7 +16,7 @@ const About = () => {
           className="text-center mb-16"
         >
           <p className="text-label text-gold tracking-[0.3em] mb-4">
-            Quem Somos
+            Quem Sou
           </p>
           <h2 className="heading-section text-4xl md:text-6xl text-foreground">
             Camila{" "}
@@ -69,10 +69,10 @@ const About = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <p className="text-label text-pink tracking-[0.25em] mb-6">
-              Grupo Camila Cavinatti
+              Camila Cavinatti
             </p>
             <p className="text-foreground leading-relaxed mb-5 text-base">
-              A marca Camila Cavinatti surgiu de um sonho de sua fundadora: fazer
+              A marca Camila Cavinatti surgiu de um sonho: fazer
               a diferença na vida das pessoas e tornar o mundo um lugar onde a
               individualidade é respeitada e{" "}
               <span className="text-pink font-medium">
@@ -80,13 +80,13 @@ const About = () => {
               </span>
             </p>
             <p className="text-muted-foreground leading-relaxed mb-5">
-              Com anos de experiência e formação internacional, Camila se consolidou
-              como uma das referências em beleza artística no Brasil. Sua abordagem
+              Com anos de experiência e formação internacional, me consolidei
+              como uma das referências em beleza artística no Brasil. Minha abordagem
               combina técnica impecável com sensibilidade artística.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-8">
               Especialista em micropigmentação, design de sobrancelhas e procedimentos
-              faciais, acredita que a verdadeira beleza está na valorização da
+              faciais, acredito que a verdadeira beleza está na valorização da
               individualidade de cada pessoa.
             </p>
 

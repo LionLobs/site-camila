@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="md:col-span-2">
             <img src={logo} alt="Camila Cavinatti Beauty" className="h-16 w-auto brightness-0 invert mb-4" />
             <p className="text-primary-foreground/50 text-sm leading-relaxed mt-4 max-w-sm">
-              Beleza sem padrão, impacto sem limites. Celebramos a autenticidade
+              Beleza sem padrão, impacto sem limites. Celebro a autenticidade
               em cada detalhe, trazendo um impacto que vai além de qualquer limite.
             </p>
             {/* Social */}
@@ -42,7 +42,7 @@ const Footer = () => {
             <p className="text-label text-primary-foreground/40 mb-4 tracking-[0.2em]">
               Menu
             </p>
-            {["Quem Somos", "Procedimentos", "Clínica", "Depoimentos", "Contato"].map(
+            {["Quem Sou", "Procedimentos", "Clínica", "Depoimentos", "Contato"].map(
               (item) => (
                 <a
                   key={item}
