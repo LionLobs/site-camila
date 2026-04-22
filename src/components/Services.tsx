@@ -7,6 +7,10 @@ import client3 from "@/assets/client-3.png";
 import client4 from "@/assets/client-4.png";
 import client5 from "@/assets/client-5.png";
 import clientFlowBrows from "@/assets/client-flowbrows.png";
+import serviceDepilacao from "@/assets/service-depilacao.jpg";
+import serviceCiliosBr from "@/assets/service-cilios-brasileiro.jpg";
+import serviceCiliosRu from "@/assets/service-cilios-russo.jpg";
+import serviceCiliosEg from "@/assets/service-cilios-egipcio.jpg";
 
 const services = [
   {
@@ -50,21 +54,21 @@ const services = [
     price: "R$ 50,00",
     description:
       "Remoção delicada dos pelos faciais, deixando a pele lisa, uniforme e pronta para receber maquiagem e demais cuidados.",
-    image: client1,
+    image: serviceDepilacao,
   },
   {
     title: "Cílios — Volume Brasileiro",
     price: "R$ 150,00",
     description:
       "Extensão de cílios com efeito natural e marcante, fio a fio, ideal para um olhar mais expressivo no dia a dia.",
-    image: client3,
+    image: serviceCiliosBr,
   },
   {
     title: "Cílios — Volume Russo",
     price: "R$ 200,00",
     description:
       "Técnica sofisticada de múltiplos fios ultrafinos por extensão, criando um volume denso, leve e altamente impactante.",
-    image: client2,
+    image: serviceCiliosRu,
     tag: "Premium",
   },
   {
@@ -72,7 +76,7 @@ const services = [
     price: "R$ 150,00",
     description:
       "Volume com efeito alongado e dramático, com fios estratégicos que criam um olhar felino e sedutor.",
-    image: client5,
+    image: serviceCiliosEg,
   },
 ];
 
