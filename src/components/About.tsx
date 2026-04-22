@@ -39,7 +39,7 @@ const About = () => {
               <img
                 src={camilaFlores}
                 alt="Camila Cavinatti entre flores"
-                className="w-full aspect-[3/4] rounded-2xl object-cover object-[center_30%] shadow-luxury"
+                className="w-full aspect-[3/4] rounded-2xl object-cover object-center shadow-luxury"
               />
               {/* Floating secondary image */}
               <motion.div
@@ -52,7 +52,7 @@ const About = () => {
                 <img
                   src={camilaCafe}
                   alt="Camila Cavinatti"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover object-[center_18%]"
                 />
               </motion.div>
               {/* Decorative elements */}
