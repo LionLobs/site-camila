@@ -46,7 +46,7 @@ const Testimonials = () => {
             Depoimentos
           </p>
           <h2 className="heading-section text-4xl md:text-5xl text-foreground">
-            O que dizem nossas{" "}
+            O que dizem minhas{" "}
             <span className="heading-italic text-gradient-pink-gold">
               clientes
             </span>

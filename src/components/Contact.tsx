@@ -36,8 +36,8 @@ const Contact = () => {
                 <span className="heading-italic">avaliação</span>
               </h2>
               <p className="text-primary-foreground/80 leading-relaxed mb-10 max-w-md">
-                Conheça nossos procedimentos e agende sua avaliação personalizada.
-                Nossa equipe está pronta para transformar sua beleza.
+                Conheça meus procedimentos e agende sua avaliação personalizada.
+                Estou pronta para transformar sua beleza.
               </p>
 
               <div className="space-y-6">
@@ -80,7 +80,7 @@ const Contact = () => {
               className="bg-background rounded-2xl p-8 md:p-10 shadow-xl"
             >
               <h3 className="heading-section text-2xl text-foreground mb-6">
-                Fale <span className="text-pink heading-italic">conosco</span>
+                Fale <span className="text-pink heading-italic">comigo</span>
               </h3>
               <form className="space-y-5" onSubmit={handleSubmit}>
                 {[
@@ -127,7 +127,7 @@ const Contact = () => {
                   </label>
                   <textarea
                     rows={3}
-                    placeholder="Conte-nos mais sobre o que procura..."
+                    placeholder="Conte-me mais sobre o que procura..."
                     value={form.message}
                     onChange={(e) => setForm({ ...form, message: e.target.value })}
                     className="w-full border border-border rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-pink focus:ring-1 focus:ring-pink transition-all bg-background resize-none"

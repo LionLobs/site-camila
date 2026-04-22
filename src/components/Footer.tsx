@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="md:col-span-2">
             <img src={logo} alt="Camila Cavinatti Beauty" className="h-16 w-auto brightness-0 invert mb-4" />
             <p className="text-primary-foreground/50 text-sm leading-relaxed mt-4 max-w-sm">
-              Beleza sem padrão, impacto sem limites. Celebramos a autenticidade
+              Beleza sem padrão, impacto sem limites. Celebro a autenticidade
               em cada detalhe, trazendo um impacto que vai além de qualquer limite.
             </p>
             {/* Social */}
@@ -42,17 +42,21 @@ const Footer = () => {
             <p className="text-label text-primary-foreground/40 mb-4 tracking-[0.2em]">
               Menu
             </p>
-            {["Quem Somos", "Procedimentos", "Clínica", "Depoimentos", "Contato"].map(
-              (item) => (
-                <a
-                  key={item}
-                  href={`#${item.toLowerCase().replace(/\s/g, "-")}`}
-                  className="block text-primary-foreground/60 text-sm mb-3 hover:text-pink transition-colors"
-                >
-                  {item}
-                </a>
-              )
-            )}
+            {[
+              { label: "Quem Sou", href: "#quem-somos" },
+              { label: "Procedimentos", href: "#procedimentos" },
+              { label: "Clínica", href: "#clinica" },
+              { label: "Depoimentos", href: "#depoimentos" },
+              { label: "Contato", href: "#contato" },
+            ].map((item) => (
+              <a
+                key={item.label}
+                href={item.href}
+                className="block text-primary-foreground/60 text-sm mb-3 hover:text-pink transition-colors"
+              >
+                {item.label}
+              </a>
+            ))}
           </div>
 
           {/* Procedures */}

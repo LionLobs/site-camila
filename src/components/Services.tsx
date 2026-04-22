@@ -146,13 +146,13 @@ const Services = () => {
             Procedimentos
           </p>
           <h2 className="heading-section text-4xl md:text-6xl text-foreground">
-            Conheça nossos procedimentos{" "}
+            Conheça meus procedimentos{" "}
             <span className="heading-italic text-gradient-pink-gold">
               exclusivos
             </span>
           </h2>
           <p className="text-muted-foreground mt-4 max-w-lg mx-auto">
-            Deslize para explorar todos os nossos tratamentos premium
+            Deslize para explorar todos os meus tratamentos premium
           </p>
         </motion.div>
 

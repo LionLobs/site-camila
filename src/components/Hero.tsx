@@ -45,7 +45,7 @@ const Hero = () => {
             </h1>
 
             <p className="font-body text-muted-foreground text-base md:text-lg leading-relaxed mb-10 max-w-xl">
-              Desafiamos normas e celebramos a autenticidade em cada detalhe,
+              Desafio normas e celebro a autenticidade em cada detalhe,
               trazendo um impacto que vai além de qualquer limite.
             </p>
 
@@ -128,7 +128,7 @@ const Hero = () => {
         <div className="container mx-auto px-6 pb-6">
           <div className="flex items-center justify-between">
             <p className="text-label text-muted-foreground tracking-[0.25em]">
-              Acompanhe o que fazemos
+              Acompanhe o que faço
             </p>
             <div className="h-px flex-1 mx-6 bg-gradient-to-r from-gold/40 via-pink/30 to-transparent" />
             <span className="text-gold text-2xl font-light">+</span>

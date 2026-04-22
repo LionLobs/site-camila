@@ -15,16 +15,16 @@ const Clinic = () => {
           className="text-center mb-16"
         >
           <p className="text-label text-gold tracking-[0.3em] mb-4">
-            Nosso Espaço
+            Meu Espaço
           </p>
           <h2 className="heading-section text-4xl md:text-5xl text-foreground mb-4">
             Conheça{" "}
             <span className="heading-italic text-gradient-pink-gold">
-              nossa clínica
+              minha clínica
             </span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Na nossa clínica estética, a beleza é cuidada com precisão e carinho,
+            Na minha clínica estética, a beleza é cuidada com precisão e carinho,
             para que você se sinta confiante e radiante em cada detalhe do seu ser.
           </p>
         </motion.div>
@@ -92,7 +92,7 @@ const Clinic = () => {
             Atendimento
           </a>
           <a href="#procedimentos" className="btn-outline">
-            Nossos Procedimentos
+            Meus Procedimentos
           </a>
         </motion.div>
       </div>
