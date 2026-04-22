@@ -14,7 +14,7 @@ const services = [
     price: "R$ 500,00",
     description:
       "Técnica exclusiva de micropigmentação que recupera o volume e a naturalidade dos fios das sobrancelhas, com resultado hiper-realista e duradouro.",
-    image: client5,
+    image: clientFlowBrows,
     tag: "Mais pedido",
   },
   {
