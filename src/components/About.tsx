@@ -34,12 +34,12 @@ const About = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
-            <div className="relative w-full max-w-[420px] mx-auto">
+            <div className="relative w-full max-w-[340px] mx-auto">
               {/* Main image */}
               <img
                 src={camilaFlores}
                 alt="Camila Cavinatti entre flores"
-                className="w-full aspect-[3/4] rounded-2xl object-cover shadow-luxury"
+                className="w-full aspect-[3/4] rounded-2xl object-cover object-top shadow-luxury"
               />
               {/* Floating secondary image */}
               <motion.div
