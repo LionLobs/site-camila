@@ -3,24 +3,24 @@ import { Star, Quote } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Ana Carolina M.",
-    service: "Flow Brows",
-    text: "A Camila é uma verdadeira artista. Minhas sobrancelhas nunca ficaram tão naturais e perfeitas. O atendimento é impecável do início ao fim.",
+    name: "Odete",
+    service: "Sobrancelhas",
+    text: "Fiz minha sobrancelhas ficou muito bom, era o que eu queria. Camila foi muito atenciosa me explicando como ia ser o procedimento. Recomendo e ótima profissional.",
   },
   {
-    name: "Juliana R.",
-    service: "Pump Lips",
-    text: "Resultado incrível! Lábios naturais e com uma cor linda. A Camila tem um cuidado e atenção aos detalhes que fazem toda a diferença.",
+    name: "Andreia Brusque",
+    service: "Sobrancelhas",
+    text: "Amei minhas sobrancelhas novas! Fazia tempo que procurava melhorar o aspecto das sobrancelhas, e o seu método me surpreendeu. Seu atendimento foi especial, me senti num spa! Conversa boa, massagem e aquele capuccino maravilhoso. Muito obrigada!",
   },
   {
-    name: "Mariana S.",
-    service: "Nanopigmentação",
-    text: "Fiz nanopigmentação com a Camila e superou todas as minhas expectativas. Profissional excepcional, ambiente luxuoso e resultado impecável.",
+    name: "Amanda Nicolau",
+    service: "Sobrancelhas",
+    text: "Hoje eu tava aqui arrumando a sobrancelha, já tem um tempão que vc fez e ela está intacta ainda. Eu amei, meu olhar ficou até mais arqueado. Vc arrasa!",
   },
   {
-    name: "Fernanda L.",
-    service: "Flow Lash Lifting",
-    text: "Meus cílios nunca ficaram tão bonitos! O procedimento foi rápido, confortável e o resultado dura semanas. Super recomendo!",
+    name: "Shirlen",
+    service: "Sobrancelhas e Cílios",
+    text: "Amei demais o resultado! Tanto a sobrancelha como o cílios superaram minhas expectativas. Seu atendimento também, impecável, dedicada e disposta a deixar o procedimento confortável. Nota 10!",
   },
 ];
 
