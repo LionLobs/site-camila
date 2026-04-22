@@ -54,7 +54,7 @@ const services = [
     price: "R$ 50,00",
     description:
       "Remoção delicada dos pelos faciais, deixando a pele lisa, uniforme e pronta para receber maquiagem e demais cuidados.",
-    image: client1,
+    image: serviceDepilacao,
   },
   {
     title: "Cílios — Volume Brasileiro",
