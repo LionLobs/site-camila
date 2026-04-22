@@ -85,9 +85,15 @@ const Footer = () => {
           <p className="text-primary-foreground/30 text-xs flex items-center gap-1">
             © 2026 Camila Cavinatti Beauty. Todos os direitos reservados.
           </p>
-          <p className="text-primary-foreground/30 text-xs flex items-center gap-1">
-            Feito com <Heart size={10} className="text-pink" /> e dedicação
-          </p>
+          <a
+            href="https://www.instagram.com/lionlobs"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-primary-foreground/30 text-xs flex items-center gap-2 hover:text-pink transition-colors"
+          >
+            Criado por <span className="font-semibold text-primary-foreground/50">LionLobs</span>
+            <Instagram size={12} />
+          </a>
         </div>
       </div>
     </footer>
