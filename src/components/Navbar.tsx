@@ -6,7 +6,7 @@ import logo from "@/assets/logo.png";
 const WHATSAPP_URL = "https://wa.me/5515981037418?text=Olá! Gostaria de agendar um horário.";
 
 const navItems = [
-  { label: "Quem Somos", href: "#quem-somos" },
+  { label: "Quem Sou", href: "#quem-somos" },
   { label: "Procedimentos", href: "#procedimentos" },
   { label: "Clínica", href: "#clinica" },
   { label: "Depoimentos", href: "#depoimentos" },
