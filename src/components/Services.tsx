@@ -175,6 +175,10 @@ const Services = () => {
       {/* Scrollable cards */}
       <div
         ref={scrollRef}
+        onMouseEnter={() => setIsPaused(true)}
+        onMouseLeave={() => setIsPaused(false)}
+        onTouchStart={() => setIsPaused(true)}
+        onTouchEnd={() => { setTimeout(() => setIsPaused(false), 5000); }}
         className="flex gap-6 overflow-x-auto scroll-smooth pb-8 px-6 md:px-[max(1.5rem,calc((100vw-1280px)/2+1.5rem))]"
         style={{
           scrollbarWidth: "none",
