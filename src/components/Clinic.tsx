@@ -71,10 +71,10 @@ const Clinic = () => {
             <div className="absolute inset-0 bg-gradient-to-t from-foreground/60 to-transparent" />
             <div className="absolute bottom-0 left-0 right-0 p-8">
               <p className="text-label text-primary-foreground/70 mb-2 tracking-[0.25em]">
-                Nossa Equipe
+                Certificação
               </p>
               <h3 className="font-heading text-2xl md:text-3xl text-primary-foreground">
-                Profissionais certificadas e apaixonadas
+                Camila e suas alunas certificadas pela Natalia Beauty
               </h3>
             </div>
           </motion.div>
