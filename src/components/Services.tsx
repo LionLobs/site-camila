@@ -1,4 +1,4 @@
-import { motion, useRef as _useRef } from "framer-motion";
+import { motion } from "framer-motion";
 import { useRef, useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight, Sparkles } from "lucide-react";
 import serviceBrows from "@/assets/service-brows.jpg";
