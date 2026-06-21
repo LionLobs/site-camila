@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { MapPin, Phone, Clock, Instagram, Mail, MessageCircle } from "lucide-react";
+import { Phone, Clock, Instagram, MessageCircle } from "lucide-react";
 
 const WHATSAPP_NUMBER = "5515981037418";
 const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}`;
@@ -42,9 +42,7 @@ const Contact = () => {
 
               <div className="space-y-6">
                 {[
-                  { icon: MapPin, title: "Endereço", detail: "Rua Augusta, 1234 — Jardins, São Paulo" },
                   { icon: Phone, title: "WhatsApp", detail: "(15) 98103-7418", href: WHATSAPP_URL },
-                  { icon: Mail, title: "E-mail", detail: "contato@camilacavinatti.com.br" },
                   { icon: Clock, title: "Horário", detail: "Seg a Sex: 9h–19h | Sáb: 9h–15h" },
                   { icon: Instagram, title: "Instagram", detail: "@camilacavinattibeauty" },
                 ].map((item) => (
