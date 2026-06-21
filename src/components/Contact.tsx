@@ -110,12 +110,15 @@ const Contact = () => {
                     className="w-full border border-border rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-pink focus:ring-1 focus:ring-pink transition-all bg-background text-muted-foreground"
                   >
                     <option value="">Selecione um serviço</option>
-                    <option value="Flow Brows">Flow Brows</option>
-                    <option value="Pump Lips">Pump Lips</option>
-                    <option value="Flow Lash Lifting">Flow Lash Lifting</option>
-                    <option value="Nanopigmentação">Nanopigmentação</option>
-                    <option value="Shine Face">Shine Face</option>
-                    <option value="Skincare Profissional">Skincare Profissional</option>
+                    <option value="Flow Brows">Flow Brows — R$ 500,00</option>
+                    <option value="Brown Up">Brown Up — R$ 150,00</option>
+                    <option value="Grow Up">Grow Up — R$ 150,00 por sessão</option>
+                    <option value="Flow Design">Flow Design — R$ 60,00</option>
+                    <option value="Flow Design + Henna">Flow Design + Henna — R$ 90,00</option>
+                    <option value="Depilação Facial">Depilação Facial — R$ 50,00</option>
+                    <option value="Cílios — Volume Brasileiro">Cílios — Volume Brasileiro — R$ 150,00</option>
+                    <option value="Cílios — Volume Russo">Cílios — Volume Russo — R$ 200,00</option>
+                    <option value="Cílios — Volume Egípcio">Cílios — Volume Egípcio — R$ 150,00</option>
                   </select>
                 </div>
 
